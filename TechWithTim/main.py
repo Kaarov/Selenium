@@ -6,7 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-service = Service(executable_path="./chromedriver")
+service = Service(executable_path="../chromedriver")
 driver = webdriver.Chrome(service=service)
 
 driver.get("https://google.com")
