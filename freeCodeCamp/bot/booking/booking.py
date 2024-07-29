@@ -3,6 +3,7 @@ import booking.constants as const
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
+from booking.booking_filtration import BookingFiltration
 
 
 class Booking(webdriver.Chrome):
@@ -49,7 +50,7 @@ class Booking(webdriver.Chrome):
         check_out_element.click()
 
     def select_adults(self, count=1):
-        selection_element = self.find_element(By.CSS_SELECTOR, 'button[aria-controls=":rc:"]')
+        selection_element = self.find_element(By.CSS_SELECTOR, 'button[aria-controls=":rl:"]')
         selection_element.click()
 
         while True:
@@ -72,3 +73,7 @@ class Booking(webdriver.Chrome):
     def click_search(self):
         search_button = self.find_element(By.CSS_SELECTOR, 'button[type="submit"]')
         search_button.click()
+
+    def apply_filtration(self):
+        filtration = BookingFiltration(self)
+        filtration.apply_star_rating(3, 4, 5)

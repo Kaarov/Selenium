@@ -10,5 +10,6 @@ with Booking("../../chromedriver") as bot:
     # bot.change_currency("EUR")
     bot.select_place_to_go("New York")
     bot.select_dates("2024-07-31", "2024-08-06")
-    bot.select_adults(2)
+    bot.select_adults(5)
     bot.click_search()
+    bot.apply_filtration()
