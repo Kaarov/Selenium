@@ -1,0 +1,17 @@
+ОПЦИИ БРАУЗЕРА И СТРАТЕГИЯ ЗАГРУЗКИ СТРАНИЦЫ # Урок 9
+
+－Опции:
+➖ Безголовый режим "--headless"
+➖ Режим инкогнито "--incognito"
+➖ Игнорирование ошибок сертификатов "--ignore-certificate-errors"
+➖ Размер окна браузера "--window-size=X,Y"
+➖ Отключение кеширования "--disable-cache"
+
+－Методы:
+➖ Добавление новой опции - add_argument("--имя_опции")
+➖ Установка размера окна - driver.set_window_size(1920, 1080)
+➖ Развернуть окно браузера на весь экран - driver.maximize_window()
+
+- Хардкдинг стратегии загрузки:
+➖ chrome_options.page_load_strategy = "normal" - дожидается загрузки всех ресурсов
+➖ chrome_options.page_load_strategy = "eager" - дожидается загрузки DOM
