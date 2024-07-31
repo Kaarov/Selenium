@@ -49,3 +49,9 @@
 ➖ select_by_visible_text(текст) - Выбор опции по ее тексту
 ➖ select_by_index(индекс) - Выбор опции по ее индексу
 ➖ select_by_value(value) - Выбор опции по ее value
+
+
+РАБОТА С PROXY-SERVER # Урок 17
+
+－Опция из урока:
+➖ options.add_argument("--proxy-server=ВАШ_СЕРВЕР")
