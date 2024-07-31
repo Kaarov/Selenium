@@ -55,3 +55,12 @@
 
 －Опция из урока:
 ➖ options.add_argument("--proxy-server=ВАШ_СЕРВЕР")
+
+
+РАБОТА С ОКНАМИ И ВКЛАДКАМИ # Урок 18
+
+－Методы из урока:
+➖ driver.switch_to.new_window("tab/window") - открыте новы окон или вкладок с автоматическим переключением
+➖ driver.switch_to.window("дескриптор") - переключение по дескриптору
+➖ driver.current_window_handle - получение текущего дескриптора
+➖ driver.window_handles - получение всех дескрипторов
