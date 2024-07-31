@@ -37,3 +37,15 @@
 ➖ is_selected() - Возвращает статус чекбокса и радио-кнопки
 ➖ is_enabled() - Проверяет доступен ли элемент для взаиодействия
 ➖ get_attribute(атрибут) - Получает указанный атрибут элемента
+
+
+РАБОТА С DROPDOWN, MULTISELECT И КЛАВИАТУРОЙ # Урок 16
+
+Импорты из урока:
+➖ from selenium.webdriver import Keys - для работы с клавиатурой
+➖ from selenium.webdriver.support.select import Select - для работы с dropdown
+
+－Методы из урока:
+➖ select_by_visible_text(текст) - Выбор опции по ее тексту
+➖ select_by_index(индекс) - Выбор опции по ее индексу
+➖ select_by_value(value) - Выбор опции по ее value
