@@ -15,3 +15,9 @@
 - Хардкдинг стратегии загрузки:
 ➖ chrome_options.page_load_strategy = "normal" - дожидается загрузки всех ресурсов
 ➖ chrome_options.page_load_strategy = "eager" - дожидается загрузки DOM
+
+СКРИНШОТЫ + УПРАВЛЕНИЕ WEBDRIVER-МОДОМ И USER-AGENT
+
+－Опции из видео:
+➖ options.add_argument("--disable-blink-features=AutomationControlled") - отключение WebDriver-мода
+➖ options.add_argument("--user-agent=Automation") - Изменение User-agent
