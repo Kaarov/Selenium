@@ -21,3 +21,11 @@
 －Опции из видео:
 ➖ options.add_argument("--disable-blink-features=AutomationControlled") - отключение WebDriver-мода
 ➖ options.add_argument("--user-agent=Automation") - Изменение User-agent
+
+
+－Методы для работы с cookies:
+➖ get_cookie(name) - Получить куку по имени
+➖ get_cookies() - Получить все куки
+➖ add_cookie({"name": "example", "value": "123"}) - Добавление
+➖ delete_cookie(name) - Удаление куки по имени
+➖ delete_all_cookies() - Удаление всех куков
