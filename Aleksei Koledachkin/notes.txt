@@ -72,3 +72,14 @@
 ➖ driver.switch_to.frame("id/name/index/WebElement") - переключение на iframe
 ➖ driver.switch_to.default_content() - переключение на дефолтный контент
 ➖ driver.switch_to.parent_frame() - переключение на родительский iframe
+
+
+ЦЕПОЧКА ДЕЙСТВИЙ. ЧАСТЬ 1 # Урок 21
+
+－Методы из урока:
+➖ click(WebElement) - Клик левой кнопкой мыши
+➖ double_click(WebElement) - Двойной клик
+➖ context_click(WebElement) - Клик правой кнопкой мыши
+➖ pause(секунды) - Пауза в цепочке действий
+➖ move_to_element(WebElement) - Наведение на элемент
+➖ perform() - Замыкание цепочки действий
