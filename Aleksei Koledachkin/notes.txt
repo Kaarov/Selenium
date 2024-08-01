@@ -64,3 +64,11 @@
 ➖ driver.switch_to.window("дескриптор") - переключение по дескриптору
 ➖ driver.current_window_handle - получение текущего дескриптора
 ➖ driver.window_handles - получение всех дескрипторов
+
+
+РАБОТА С IFRAMES # Урок 20
+
+－Методы из урока:
+➖ driver.switch_to.frame("id/name/index/WebElement") - переключение на iframe
+➖ driver.switch_to.default_content() - переключение на дефолтный контент
+➖ driver.switch_to.parent_frame() - переключение на родительский iframe
